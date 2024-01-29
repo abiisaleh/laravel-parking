@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Parking App</title>
+    <link href="/dist/css/bootstrap.min.css" rel="stylesheet" />
+  </head>
+  <body>
+    <main class="container">
+      <div class="mt-3">
+        <p class="mb-0">Booking Tempat</p>
+        <h3 class="mt-0">#A31</h3>
+      </div>
+
+      <form action="">
+        <div class="d-grid gap-2">
+          <div>
+            <h6 class="my-3">Waktu Parkir</h6>
+            <div class="row">
+              <div class="col-4 d-grid">
+                <input
+                  type="radio"
+                  class="btn-check"
+                  name="waktu"
+                  id="option1"
+                  autocomplete="off"
+                />
+                <label class="btn btn-light btn-outline-dark" for="option1">
+                  <p class="mb-0 fw-bold text-right">1 Jam</p>
+                  <p>Rp. 2.000</p>
+                </label>
+              </div>
+
+              <div class="col-4 d-grid">
+                <input
+                  type="radio"
+                  class="btn-check"
+                  name="waktu"
+                  id="option2"
+                  autocomplete="off"
+                  checked
+                />
+                <label class="btn btn-light btn-outline-dark" for="option2">
+                  <p class="mb-0 fw-bold">3 Jam</p>
+                  <p>Rp. 5.000</p>
+                </label>
+              </div>
+
+              <div class="col-4 d-grid">
+                <input
+                  type="radio"
+                  class="btn-check"
+                  name="waktu"
+                  id="option3"
+                  autocomplete="off"
+                />
+                <label class="btn btn-light btn-outline-dark" for="option3">
+                  <p class="mb-0 fw-bold">6 Jam</p>
+                  <p>Rp. 8.000</p>
+                </label>
+              </div>
+            </div>
+          </div>
+          <div>
+            <h6 class="my-3">Jenis Kendaraan</h6>
+            <div class="row">
+              <div class="col-4 d-grid">
+                <input
+                  type="radio"
+                  class="btn-check"
+                  name="kendaraan"
+                  id="option1b"
+                  autocomplete="off"
+                />
+                <label class="btn btn-light btn-outline-dark" for="option1b">
+                  <p class="mb-0 fw-bold text-right">Motor</p>
+                  <p>Roda 2</p>
+                </label>
+              </div>
+
+              <div class="col-4 d-grid">
+                <input
+                  type="radio"
+                  class="btn-check"
+                  name="kendaraan"
+                  id="option2b"
+                  autocomplete="off"
+                  checked
+                />
+                <label class="btn btn-light btn-outline-dark" for="option2b">
+                  <p class="mb-0 fw-bold">Mobil</p>
+                  <p>Roda 4</p>
+                </label>
+              </div>
+
+              <div class="col-4 d-grid">
+                <input
+                  type="radio"
+                  class="btn-check"
+                  name="kendaraan"
+                  id="option3b"
+                  autocomplete="off"
+                />
+                <label class="btn btn-light btn-outline-dark" for="option3b">
+                  <p class="mb-0 fw-bold">Truk</p>
+                  <p>Roda ≥ 4</p>
+                </label>
+              </div>
+            </div>
+          </div>
+          <div>
+            <h6 class="my-3">Metode Pembayaran</h6>
+            <div class="row">
+              <div class="col-4 d-grid">
+                <input
+                  type="radio"
+                  class="btn-check"
+                  name="options"
+                  id="option2c"
+                  autocomplete="off"
+                  checked
+                />
+                <label class="btn btn-light btn-outline-dark" for="option2c">
+                  <p class="mb-0 fw-bold">Cash</p>
+                  <p>Bayar di tempat</p>
+                </label>
+              </div>
+
+              <div class="col-4 d-grid">
+                <input
+                  type="radio"
+                  class="btn-check"
+                  name="options"
+                  id="option3c"
+                  autocomplete="off"
+                />
+                <label class="btn btn-light btn-outline-dark" for="option3c">
+                  <p class="mb-0 fw-bold">Transfer Bank</p>
+                  <p>Mandiri 17411009</p>
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <input
+            class="btn btn-dark mt-5 py-2"
+            type="submit"
+            value="Konfirmasi Booking"
+          />
+        </div>
+      </form>
+    </main>
+
+    <script src="/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
